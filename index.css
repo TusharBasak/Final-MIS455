@@ -1,0 +1,49 @@
+
+/* navbar starts here */
+.navbar ul li{
+   
+    font-size: 1.5rem;
+    font-weight:lighter;
+}
+
+
+
+.navbar ul li:hover{
+   
+     font-weight: bolder;
+     text-decoration: underline;
+     text-decoration-color: white;
+     
+}
+
+
+/* navbar ends here */
+
+
+
+/* footer starts here */
+
+.footer{
+    position: relative;
+    height: 600px;
+     top:800px; 
+    color: #fff; 
+    padding: 30px 0; 
+    
+    
+ }
+
+ .footer-links a { 
+    color: #fff; 
+    text-decoration: none; 
+    margin-right: 15px; 
+    transition: color 0.3s ease; 
+} 
+
+.footer-links a:hover { 
+    color: #adb5bd; 
+} 
+
+
+ 
+/* footer ends here */
