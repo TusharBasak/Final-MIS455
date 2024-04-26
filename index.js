@@ -33,7 +33,8 @@ function show (data) {
                                   Meal Name: <b>${data[i].strMeal}</b> <br>
                                   <img src="${data[i].strMealThumb}"> <br>
                                   Meal Title: <b>${data[i].strCategory}</b> <br>
-                                  <b>Cooking Instructions:</b> ${data[i].strInstructions}<br><br>`; 
+                                  <b>Cooking Instructions:</b> ${data[i].strInstructions}<br><br>`
+    newDiv.classList.add("innerStyle");                           
        oldContent.appendChild(newDiv); 
        
     }
